@@ -1,0 +1,48 @@
+/* Welcome */
+
+/* Now you know how to link a Cascading Style Sheet aka CSS */
+
+
+/* so css syntax rules are simple */
+/* EXAMPLE IS GIVEN BELOW */
+
+
+/* Selector */        /* Declaration */
+    p.ex1        {background-color:yellow;}
+                 /* Property */  /* Value */
+
+
+/* you can use selectors to find html element class ID and different stuff */ 
+
+
+/* you can use ID selector to use the id attribute in html, id is a uniquee attribute */
+/* example is given below */
+
+/* id is defined by #  selector*/
+#piece{background-color: greenyellow;}
+
+
+
+
+/* class selector doesn't requires to be unique */
+/* example is given below */
+
+
+/* class is defined by . selector */
+p.ex2{background-color: mediumturquoise;}
+
+
+
+/* so now you know the syntax */
+
+/* you can also do grouping the selector if you want them in the same declaration */
+
+h1, div, h2 {
+    text-align: right;
+    color: yellowgreen;
+}
+
+
+/* Course will be updated */
+
+
