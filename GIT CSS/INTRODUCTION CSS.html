@@ -1,60 +1,62 @@
-/* Welcome */
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+
+    <!-- External Style Sheet  -->
+    <!-- example is given below -->
+    <link rel="stylesheet" href="GIT CSS 1.css">
+
+    <!-- Internal Style Sheet -->
+    <!-- Example is givwn below -->
+
+    <style>
+    
+        h3{background-color: orangered; color: yellow;}
+    
+    </style>
+
+    <title>CSS 1</title>
+</head>
+<body>
+    <!-- you can add html file in the head of html element in example is  in the head element  -->
+
+    <p class="ex1">i'm not gonna tell you the inline css <br> this html refer to <b>css 1</b></p>
 
 
-/* THIS IS A COMMENT, THATS HOW USE COMMENT IN CSS 
-COMMENTS ARE IGNORED BY BROWSER */
-
-/* so css syntax rules are simple */
-/* EXAMPLE IS GIVEN BELOW */
+<br>
 
 
-/* Selector */        /* Declaration */
-    p.ex1        {background-color:yellow;}
-                 /* Property */  /* Value */
-
-/* you can use selectors to find html element class ID and different stuff */ 
+    <p id="piece"> A id should be unique </p>
+    <p class="ex2">A class doesnt need to be unique you can use one class in different element or in the same elements </p>
 
 
-/* you can use ID selector to use the id attribute in html, id is a uniquee attribute */
-/* example is given below */
+    <!-- Grouping selectors -->
+    <!-- Example  -->
+    
+    <h1>these are group selectors</h1>
 
-/* id is defined by #  selector*/
-#piece{background-color: greenyellow;}
+    <div>these are group selectors</div>
 
-
-
-
-/* class selector doesn't requires to be unique */
-/* example is given below */
+    <h2>these are group selectors</h2>
 
 
-/* class is defined by . selector */
-p.ex2{background-color: mediumturquoise;}
+    <!-- Internal Style Sheet Effects -->
+    <!-- Example is given below -->
+    
+    <h3>
+        This is an internal Style Sheet Example
+    </h3>
+
+    <!-- Inline Css  -->
+    <!-- Example is given below -->
+
+    <h4 style="color: cornflowerblue; background-color: darkslategrey">This is a Inline Css</h4>
 
 
+    <!-- Don't get bothered by color they are just to help you to understand it better -->
 
-/* so now you know the syntax */
-
-/* you can also do grouping the selector if you want them in the same declaration */
-
-h1, div, h2 {
-    text-align: right;
-    color: yellowgreen;
-}
-
-
-
-/* Ok that was easy and fun as mentioned earlier syntax is simple */
-
-/* now an intresting parts comes in you have three ways to use css */
-
-/* External Style Sheet */
-/* inline Css */
-/* Internal Style Sheet */
-
-/* well this is a external style sheet this what is mostr used by professionals and
-its also a good practice for begginers */
-
-/* OTHER EXAMPLES ARE GIVEN IN HTML FILE */
-
-/* Don't get bothered by color they are just to help you to understand it better */
+</body>
+</html>
