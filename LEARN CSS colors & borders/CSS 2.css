@@ -1,0 +1,83 @@
+/* now you will learn how colors, background & borders are used in CSS */
+
+
+/* first we will start from colors */
+
+
+/* thats how you can apply colors on text */
+/* Example is given below*/
+
+.color{color: chartreuse;}
+.color2{color: chocolate;}
+
+
+
+/* you can add background colors too */
+/* Example is given below */
+
+.color3{background-color: cornflowerblue;}
+.color4{background-color: crimson;}
+.color5{background-color: darkgreen; font-size: 30px;}
+
+
+
+
+/* you can also use rgb hex hsl values to add colors */
+/* Examples is given below  */
+
+.colorvalue{background-color: rgb(255, 166, 0)}
+.colorvalue2{background-color: #FFA500;}
+.colorvalue3{background-color: hsla(39, 100%, 50%, 1)}
+
+
+
+ /* now lets move on to borders now */
+ /* borders specify the width style & color of an element */
+
+ .border{border: solid;}
+
+
+ /* you can use different style in the borders some examples are given */
+ /* Examples */
+
+.border1{border: dotted;}
+.border2{border: double;}
+.border3{border: dashed;}
+.border4{border: groove;}
+.border5{border: ridge;}
+.border6{border: inset;}
+.border7{border: outset;}
+.border8{border: none;}
+.border9{border: hidden;}
+.bdr{border-style: dotted double ridge dashed;}
+
+
+/* you can also change width of borders */
+/* Example */
+
+.borderw{border: solid; border-width: 20px;}
+
+
+/* now were gonna use border-color it's simple to use */
+
+.bdrcolor{border: solid; border-color: blue; border-width: 10px; }
+
+
+/* you can also use different individual sides */
+
+.bdrsides{border-top: solid;
+border-bottom: solid;
+border-right: dotted;
+border-left: dotted; }
+
+
+/* a border can also become round */
+/* you can used a radius property to make it round */
+/* Example */
+
+.radius{border: solid 4px green;
+        border-radius: 5px;
+    }
+
+
+
