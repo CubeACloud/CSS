@@ -1,0 +1,57 @@
+
+/*Now you will learn about the css box model */
+
+/*if you understand the css box model then it will be much easier,
+for you to make creative designs of web*/
+
+
+/*a css box model wraps around every html element, it consists of border, margins,
+padding and content*/
+
+
+
+/*lets dive into a bit depth of how thses border, margins, paddingn 
+and content work*/
+
+
+
+
+
+/*BORDER*/
+/*Border goes around the padding and content*/
+
+/*MARGINS*/
+/*Margin is transparent, clears an area outside the borders*/
+
+/*PADDING*/
+/*padding is transparent, clears the area around the content*/
+
+/*CONTENT*/
+/*its where all your content in box appears text images e.t.c*/
+
+
+
+
+/*A box model*/
+/*Example*/
+div {
+  width: 300px;
+  padding: 30px;
+  border: 10px solid blue;
+  margin: 20px;
+}
+
+
+
+/*you can only define height and width of content 
+to define the full element you need to calculate padding, border and margins*/
+
+
+/*a div element with height of 450px*/
+
+.i{
+	height: 450px;
+	padding: 10px;
+	border: 10px solid purple;
+	margin: 10px;
+}
