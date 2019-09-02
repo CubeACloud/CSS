@@ -1,0 +1,28 @@
+/* so its time to learn css box model its easy to learn */
+/* all html elements are boxes in css, term box model is used when talking about
+how we will make the layouts, design and stuff */
+
+
+
+
+
+
+
+/* css box model consists */
+
+/* Margin */    /* Margin - Clears an area outside the border. The margin is transparent */
+/* Border */    /* Border - A border that goes around the padding and content */
+/* Padding */   /* Padding - Clears an area around the content. The padding is transparent */
+/* Content */   /* Content - The content of the box where text and images appear */
+
+
+
+/* css box model example */
+div {
+    background-color: lightgrey;
+    width: 300px;
+    border: 15px solid darkblue;
+    padding: 50px;
+    margin: 20px;
+  }
+
