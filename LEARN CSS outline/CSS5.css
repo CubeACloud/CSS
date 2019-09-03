@@ -1,0 +1,104 @@
+ /*lets learn about css outline*/
+
+/*outline isa stretched around the element outside the borders
+so a element can stand oot */
+
+
+
+/*example of outline structure*/
+
+/*Outline*/ /*Outlines are used out side of the border*/
+
+/*Border*/	/*Borders are used with the element*/
+
+/*Content*/	/*Content is inside the element*/
+
+
+
+
+
+/* Outline has various properties */
+/*example given below*/
+
+/*outline*/
+/*outline-style*/
+/*outline-color*/
+/*ouutline-width*/
+/*outline-offset*/
+
+/*outlines are different from borders, outline wraps outside the elements border
+and outline is not part of the element dimension */
+
+
+
+
+/*you can use outline-style property to add style in out line */
+/*example given below*/
+
+.one{outline-style: dotted;}
+.two{outline-style: solid;}
+.three{outline-style: dashed;}
+.four{outline-style: double;}
+.five{outline-style: groove;}
+.six{outline-style: ridge;}
+.seven{outline-style: inset;}
+.eight{outline-style: outset;}
+.nine{outline-style: hidden;}
+
+
+
+/*you have to set outline-style property or other properties wont have any effect*/
+
+
+
+
+/*lets learn Outline color*/
+
+/*outline-color property can set color of outline*/
+/*you can use name, rgb, hex & invert to set the color of outline*/
+
+
+/*you can see while using color outline have thin black border*/
+/*example*/
+
+.colorone{outline-style: solid; outline-color: blue;}
+.colortwo{outline-style: solid; outline-color: rgb(255,55,55);}
+.colorthree{outline-style: solid; outline-color: #fe8088;}
+.colorfour{border:1px solid yellow; outline-style: solid; outline-color: invert;}
+
+
+/*the outline-width property specify the width of outline*/
+/*example given below*/
+
+.widthone{outline-style: solid; outline-width: thick; ;}
+.widthtwo{outline-style: solid; outline-width: medium;}
+.widththree{outline-style: solid; outline-width: thin;}
+.widthfour{outline-style: solid; outline-width: 10px;}
+
+
+
+
+
+
+/*okay now you know how outlines works */
+/*there is also a shorthand way to do it you can say a easy way*/
+
+/*the order of the values does not matter*/
+
+.short1{outline: dotted;}
+.short2{outline: double green;}
+.short3{outline: 9px solid blue;}
+.short4{outline: medium groove purple;}
+
+
+
+
+
+
+
+
+
+
+
+
+
