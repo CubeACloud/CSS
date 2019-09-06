@@ -1,0 +1,44 @@
+/* backgrounds are used to change effects of elements background  */
+/* example given below */
+.bgcolor1{background-color: yellow;}
+
+
+/*background-color with this property you can change the color of background  */
+ /* you can specify color in different way like rgb hex or using only name of color */
+/* couple of example with different colors */
+.bgcolor2{background-color: purple;}
+.bgcolor3{background-color: red;}
+
+
+/* background-image with this property you can change image of background */
+/*example given below */
+
+.bgimage{background-image: url(sky.jpg);}
+
+/* you can also add images with different extensions like, jpeg, gif, png, jpg. */
+
+/* now we will learn about background-repeat */
+/* you can use repeat, no-repeat, repeat-x & repeat-y properties */
+/* example given below */
+
+
+/* background image with default repeat it can repeat in the whole body if you attcah it with 
+body tag */
+.bgrepeat{background-image: url(moon.jpeg);}
+
+/* backgroung repeat y can repeat image vertically */
+.bgrepeaty{background-image: url(moon.jpeg); background-repeat: repeat-y;}
+
+/* backgroung repeat x can repeat image horizontally*/
+.bgrepeatx{background-image: url(moon.jpeg); background-repeat: repeat-x;}
+
+/* backgroung no repeat do not let the image to repeat */
+.bgnorepeat{background-image: url(moon.jpeg); background-repeat: no-repeat;}
+
+
+/* you can also change background positions using background-position */
+/* example given below */
+
+.bgposition{background-image: url(ts1.png);
+    background-position: right bottom; 
+    background-repeat: no-repeat; }
