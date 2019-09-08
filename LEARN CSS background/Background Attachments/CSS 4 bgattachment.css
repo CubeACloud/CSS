@@ -1,0 +1,6 @@
+/* another property name background-attahchment can make your background images scroll or fixed*/
+/* example given below */
+
+.bgattach{background-image: url(pix.jpeg); background-repeat: no-repeat;
+     background-attachment: fixed; background-position: right top;}
+        /*change this with "scroll"  */
