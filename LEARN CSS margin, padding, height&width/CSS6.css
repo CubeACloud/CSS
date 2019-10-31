@@ -1,0 +1,133 @@
+
+/*now that you have learned color, background & border*/
+
+/*it time to lear new things margin, padding, height & width*/
+
+
+/*JUST REMEMBER THAT
+marins are used for outer space 
+&
+paddings are used for inner space*/
+
+
+/*css specify margin like this*/
+/*Example is given below*/
+
+/*margin-top
+margin-right
+margin-bottom
+margin-left*/
+
+/*margins have these type of values auto, %, length  & inherit */
+/*you can also use negative values Examples given beli*/
+
+.margin{
+	margin-top: 50px;
+	margin-bottom: 100px;
+	margin-right: -50px;
+	margin-left: -90px;
+}
+
+
+
+/*theres also another nice way to use depends on
+ what you building on web*/
+
+ /*Short hand rule, shoethand is like a short cut to do margins*/
+.shortmargin{
+	margin: 10px 50px 70px 30px;
+}
+
+/*as you can see thats how it is done*/
+.scale{margin: 20px 50px 75px;}
+.scale2{margin: 30px 40px ;}
+.scale3{margin: 50px }
+
+/*using auto value in margins*/
+.auto{margin: auto;}
+
+/*you can also use inherit value in margin*/
+
+
+
+
+/*Now lwts move onto paddings now*/
+/*with padding properties you can create a space around an element*/
+/*in css you get full control over css padding*/
+
+/*an indiviual css padding proprty to define the elwmwnt */
+
+/*padding-top
+padding-right
+padding-bottom
+padding-left*/
+
+
+/*css padding properties uses these values/ 
+
+/*%    spaciy a padding in % of a width of containig element*/
+/*length   can specify padding in pc, cm e.t.c*/
+/* and ofcurese our lovely inherit value */
+
+/*You can't use negative values in padding*/
+
+.padding{
+	padding-top: 20px;
+	padding-right: 10px;
+	padding-bottom: 40px; 
+	padding-left: 30px;
+}
+
+
+
+/*there is also an other ezy way to use*/
+
+/*padding shorthand */
+.shorthand{padding: 10px 20px 30px 40px}
+/*
+10px is top
+2opx is right
+30px is bottom
+40px is left
+*/
+
+/*you can use this short hand property max to 4 values
+ it works just like margin short hand do */
+
+
+/*now we will use width in padding*/
+.widthpad{
+	padding: 50px;
+	width: 500px; 
+}
+
+
+
+
+
+
+
+
+
+/*now we will learn height & width*/
+/*height and width use to set the height & width of an elements*/
+/*you can use auto value in height and width to set it by default 
+and calculate it by it self*/
+
+/*Example*/
+.hw{
+	height: auto;
+	width: auto;
+	background-color: red;
+}
+
+
+
+/*you can use length values according to your need in height & width like
+px, cm, e.t.c*/
+.hwa{
+	height: 70px;
+	width: 300px;
+}
+
+
