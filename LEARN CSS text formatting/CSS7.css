@@ -1,0 +1,142 @@
+/* Now we learn css text formatting it is fairly easy */
+/* "color" property is used to change  colors of text */
+/* example given below */
+
+
+.text{
+    color: violet;
+}
+
+/*  you can also use different color value like */
+/*color name
+ HEX values
+ RGB value
+*/
+
+/* color property with different values */
+
+.text2{
+    color: #1462f5;
+}
+
+.text3{
+    color:rgb(255, 208, 0);
+}
+
+
+/* you can use align property*/
+/* example given below */
+
+.align{
+    text-align: center;
+}
+
+.align2{
+    text-align: left;
+}
+
+.align3{
+    text-align: right;
+}
+
+.align4{
+    text-align: justify;
+}
+
+/* there is a property "text-decoration" which through that you can make your text
+look more edgy if you want */
+
+/* Dont use this text-decorate property more oftelny cause it confuses the the reader  */
+/* example given below */
+.decor{
+    text-decoration: overline;
+}
+
+.decor2{
+    text-decoration: line-through;
+}
+
+.decor3{
+    text-decoration: underline;
+}
+
+/* now lets move on to text transorm */
+
+.transform{
+    text-transform: uppercase;
+
+}
+
+.transform2{
+    text-transform: lowercase;
+}
+
+.transform3{
+    text-transform: capitalize;
+}
+
+
+/* now we will learn text-indent property mostly used to specify indention/space of the first line */
+/* example given below */
+
+.indent{
+    text-indent: 60px;
+}
+
+
+/* Lets move on letter-spacing property yeah its weird but you will find it useful */
+/* example given below */
+
+.spacing{
+    letter-spacing: 3px;
+}
+
+/* you can also use negative values */
+.spacing2{
+    letter-spacing: -3px;
+}
+
+
+/* Line spacing a feature we used alot in "MS WORD" well we also going to use it in css */
+/* believe me its very useful if you want to become a blog writer */
+
+/* a line height property is used to specify spaces between lines*/
+/* example given below */
+.change{
+    line-height: 0.6;   
+}
+
+.change2{
+    line-height: 2.0;   
+}
+
+/* text directing is a simple method to use when you are building a complex website it will like a charm */
+/* we will learn how direction property works */
+/* example given below */
+.direct{
+    direction: rtl; 
+}
+
+/* Word spacing is a fun thing, if your making weird webs or blogs */
+/* example given below */
+.word{
+    word-spacing: 15px;
+}
+ 
+/* you can also use negative values */
+.word2{
+    word-spacing: -5px;
+}
+
+/* ah! text shadow is also great thing to use when developing a fancy web with fancy text*/
+/* We will learn text-shadow property */
+/* example given below */
+.shadow{
+    text-shadow: 3px 4px #1462f5;
+}
+
+/* you can also use negative values */
+.shadow2{
+    text-shadow: -3px -4px red;
+}
+
