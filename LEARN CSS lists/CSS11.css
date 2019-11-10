@@ -1,0 +1,98 @@
+/* in html you will find 2 main lists "order list" "unorder list" */
+
+/* but in css there are css list properties that 
+can modify those normal looking list in to better way */
+/* Example given below */
+
+
+/* "list-style" property can be used to change the styles of lists */
+/* order list */
+/* example */
+.l{
+    list-style: lower-latin;
+}
+
+.l1{
+    list-style: upper-roman;
+}
+
+/* unorder list */
+/* exampole */
+.l2{
+    list-style: square;
+}
+
+
+.l3{
+    list-style: circle;
+}
+
+
+
+/* This is how you can add an image in the list by using "list-style-image" property */
+/* example given below */
+.l4{
+    list-style-image: url(ul.png);
+}
+
+
+
+/* the "list-style-position" property is nice if you want to use in blogging websites */
+/* example given below */
+.l5{
+    list-style-position: outside;
+}
+
+
+.l6{
+    list-style-position: inside;
+}
+
+
+/* you can remove default settings */
+/* examples given below */
+
+.l7{
+    list-style-type: none;
+        margin: 0;
+        padding: 0;
+}
+
+
+
+/* You can use "shorthand" property in  */
+/* order of using shorthand property is */
+
+/* list-style-type
+    list-style-position
+    list-style-image */
+    /* exanple given below */
+.l9{
+    list-style: square inside url("ul.png");
+}
+
+
+/* you can style lists with colors to make them look outstanding or for other interactive uses  */
+/* Anything added to the <ol> or <ul> tag, affects the entire list, 
+while properties added to the <li> tag will affect the individual list items: */
+
+.l10 {
+    background: #70e700;
+    padding: 20px;
+  }
+  
+ .l11 {
+    background: #2160a0a8;
+    padding: 20px;
+  }
+  
+ .lit {
+    background: #ffa2a2;
+    padding: 5px;
+    margin-left: 35px;
+  }
+  
+ .lit2 {
+    background: #f7ffcc;
+    margin: 5px;
+  }
